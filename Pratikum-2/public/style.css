@@ -1,0 +1,123 @@
+/*
+    Setting up the general structure of the page
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px 30px;
+}
+
+/*
+    Header styling
+*/
+
+header {
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+/*
+    Navigation styling
+*/
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: #444;
+  font-size: 18px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+nav a.active,
+nav a:hover {
+  color: #337ab7;
+}
+
+/*
+    Sidebar and main content styling
+*/
+
+#wrapper {
+  display: flex;
+}
+
+#main {
+  flex: 2;
+}
+
+#sidebar {
+  flex: 1;
+  padding-left: 20px;
+}
+
+/*
+    Widget styling
+*/
+
+.widget-box {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.widget-box .title {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.widget-box ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.widget-box ul li {
+  margin-bottom: 10px;
+}
+
+/*
+    Footer styling
+*/
+
+footer {
+  text-align: center;
+  padding-top: 15px;
+  border-top: 1px solid #ccc;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
