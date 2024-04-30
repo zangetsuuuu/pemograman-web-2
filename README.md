@@ -122,7 +122,7 @@ public function tos()
 
 Method ini belum ada pada routing, sehingga cara mengaksesnya dengan menggunakan alamat: http://localhost:8080/page/tos
 
-![img](Pratikum-1/public/tos.png)
+![img](Praktikum-1/public/tos.png)
 
 ### Membuat View
 
@@ -157,7 +157,7 @@ public function about()
 
 Kemudian lakukan refresh pada halaman tersebut
 .
-![img](Pratikum-1/public/about.png)
+![img](Praktikum-1/public/about.png)
 
 ### Membuat Layout Web dengan CSS
 
@@ -199,7 +199,7 @@ Kemudian ubah file ``app/view/about.php`` seperti berikut.
 ```
 Selanjutnya refresh tampilan pada alamat http://localhost:8080/about
 
-![img](Pratikum-1/public/about-2.png)
+![img](Praktikum-1/public/about-2.png)
 
 ---
 
@@ -234,7 +234,7 @@ Selanjutnya refresh tampilan pada alamat http://localhost:8080/about
 
 - Buka browser, ketik http://localhost:8080/artikel
 
-![img](Pratikum-2/public/1.png)
+![img](Praktikum-2/public/1.png)
 
 - Masukkan data ke tabel artikel,
     ```sql
@@ -252,7 +252,7 @@ Selanjutnya refresh tampilan pada alamat http://localhost:8080/about
 
 - Refresh kembali browser.
 
-![img34](Pratikum-2/public/2.png)
+![img34](Praktikum-2/public/2.png)
 
 ### Membuat Tampilan detail Artikel
 - Terletak di folder `app/Controllers`, edit file `Artikel.php`. Tambah method ``view()``.
@@ -322,7 +322,7 @@ Selanjutnya refresh tampilan pada alamat http://localhost:8080/about
 
 - Akses browser dengan http://localhost:8080/admin/artikel.
 
-![img](Pratikum-2/public/4.png)
+![img](Praktikum-2/public/4.png)
 
 ### Menambah data untuk Artikel
 
@@ -332,7 +332,7 @@ Selanjutnya refresh tampilan pada alamat http://localhost:8080/about
 
 - Akses browser dengan http://localhost:8080/admin/artikel/add.
 
-![img](Pratikum-2/public/5.png)
+![img](Praktikum-2/public/5.png)
 
 ### Mengubah data pada Artikel
 
@@ -342,7 +342,7 @@ Selanjutnya refresh tampilan pada alamat http://localhost:8080/about
 
 - Akses browser dengan http://localhost:8080/admin/artikel/edit/1 untuk Mengubah artikel pertama.
 
-![img](Pratikum-2/public/6.png)
+![img](Praktikum-2/public/6.png)
 
 ### Menghapus data pada Artikel
 
@@ -409,7 +409,7 @@ Selanjutnya refresh tampilan pada alamat http://localhost:8080/about
 
 - Untuk mencobanya, akses ``http://localhost:8080/artikel``, kemudian tambah menjadi ``http://localhost:8080/admin/artikel`` lalu tekan enter.
 
-![img](Pratikum-3/public/1.png)
+![img](Praktikum-3/public/1.png)
 
 - Otomatis akan dialihkan untuk login terlebih dahulu.
 
@@ -460,7 +460,7 @@ public function admin_index()
 - Selanjutnya buka kembali menu daftar artikel, tambahkan data lagi untuk melihat
 hasilnya.
 
-![img](Pratikum-4/public/1.png)
+![img](Praktikum-4/public/1.png)
 
 ## Membuat Pencarian
 
@@ -487,7 +487,7 @@ return view('artikel/admin_index', $data);
 </form>
 ```
 
-![img](Pratikum-4/public/2.png)
+![img](Praktikum-4/public/2.png)
 
 - Dan pada link pager ubah seperti berikut.
 
@@ -497,7 +497,7 @@ return view('artikel/admin_index', $data);
 
 - Selanjutnya ujicoba dengan membuka kembali halaman admin artikel, masukkan kata kunci tertentu pada form pencarian.
 
-![img](Pratikum-4/public/3.png)
+![img](Praktikum-4/public/3.png)
 
 ---
 
